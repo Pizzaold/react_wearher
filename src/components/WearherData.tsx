@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import InputNewCity from "./InputNewCity";
 
 const WearherDataPromise = (city: string) => {
-  const api_key = "e3d20738707b74842b79cab7c1bd5ce7"
+  const api_key = "YOUR API KEY"
   const api = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`
 
   return new Promise((resolve, reject) => {
